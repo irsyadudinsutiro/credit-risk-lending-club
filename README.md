@@ -11,28 +11,6 @@ at a Singapore bank.
 
 ---
 
-## Project Structure
-
-credit-risk-lending-club/
-├── data/
-│   ├── raw/                        # Original Lending Club CSV
-│   └── processed/
-│       ├── accepted_cleaned.csv    # Cleaned dataset from EDA
-│       └── accepted_features.csv  # Feature-engineered dataset
-├── notebooks/
-│   ├── 01_eda.ipynb                # Exploratory data analysis and cleaning
-│   ├── 02_transform.ipynb         # Feature engineering
-│   ├── 03_vintage_analysis.ipynb  # Vintage default rate analysis
-│   ├── 04_roll_rate.ipynb         # Roll rate matrix and heatmap
-│   ├── 05_portfolio_segmentation.ipynb  # Portfolio segmentation dashboard
-│   └── 06_performance_trends.ipynb     # Performance trend analysis
-├── scripts/
-│   └── generate_report.py         # Automated MIS Excel report generator
-├── outputs/                       # All saved charts and reports
-└── README.md
-
----
-
 ## Dataset
 
 **Source:** Lending Club Loan Data (2007–2018), via Kaggle  
